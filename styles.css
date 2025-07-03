@@ -230,8 +230,8 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(145deg, var(--light-green), var(--accent-light-yellow));
-    color: white;
+    background: linear-gradient(145deg, var(--background-light), var(--background-light));
+    color: var(--primary-green);
     padding: 120px 25px 50px;
     position: relative;
     overflow: hidden;
@@ -296,7 +296,7 @@ body {
     height: auto;
     border-radius: 20px;
     object-fit: cover;
-    box-shadow: var(--shadow-strong);
+    box-shadow: var(--shadow-medium);
     transition: transform 0.4s ease-out;
 }
 
